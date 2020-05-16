@@ -19,6 +19,7 @@ public class WriteFiles {
 				PrintWriter printWriter = new PrintWriter(bufferedWriter2);) {
 
 			bufferedWriter.write("writing in debug file.....");
+			bufferedWriter2.write("i will write more now");
 			printWriter.printf("\ni=%d\n", 12);
 		}
 
